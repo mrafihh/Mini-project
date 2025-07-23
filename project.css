@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -10px;
+    margin-bottom: 10px;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    font-size: 1.5em;
+    padding-left: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+    padding-right: 20x;
+}
+
+.nav-links a {
+
+    text-decoration: none;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background-color: darkgrey;
+    transition: 0.3s;
+}
+
+.main img {
+    width: 102%;
+    height:100%;
+    margin-left: -10px;
+    opacity: 20%;   
+}
+
+.main {
+    background-color: grey;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+.list {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+}
+.satu,
+.dua,
+.tiga {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    width: 325px;
+    height: 325px;
+    margin: 20px;
+    border: solid 2px black;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgb(118, 117, 117);
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: #555;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 4px 7px 0px grey, 0px 5px 8px 0px grey;
+    border-radius:  20px;
+}
